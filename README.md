@@ -9,10 +9,9 @@ Our project is to utilize statistical and machine learning metods to determine t
 
 # methods used 
 
-# Results/Conclusions/analysis
+# Results/Conclusions/explaination
 
 # Additional Research Topics:
-
 
 # Getting Started:
 
