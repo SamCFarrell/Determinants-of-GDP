@@ -1,7 +1,6 @@
 # Project_2_Working_Title
 
-Our project is to utilize machine learning methods to predict stock prices.
-We will be analysing financial data of U.S equities with various classification and regression models. Our ultimate goal is to maximize accuracy and become smarter investors.  
+Our project is to utilize statistical and machine learning metods to determine the impact of various social and economic factors on GDP growth rate per capita. We will be analysing national and regional data from the World Bank with various regression and classification models. Additionally, we will be using time-series data to analyze the trends in the carribean and Latin America to analyse the impact these factors have on economic growth within a developing region.
 
 
 # Questions
