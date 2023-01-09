@@ -1,4 +1,4 @@
-# Project_2_Working_Title
+# Determinents of GDP
 
 Our project is to utilize statistical and machine learning metods to determine the impact of various social and economic factors on GDP growth rate per capita. We will be analysing national and regional data from the World Bank with various regression and classification models. Additionally, we will be using time-series data to analyze the trends in the carribean and Latin America to analyse the impact these factors have on economic growth within a developing region.
 
