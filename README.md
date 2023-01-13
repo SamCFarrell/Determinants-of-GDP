@@ -47,8 +47,6 @@ Net enrollment rate is the ratio of children of official school age who are enro
 ## Models
 
 **Multi-Variable Linear Regression:**
-* 
-
 
 GDP Growth Rate Per Capita(%) = 
                                 𝛽0 + 𝛽1 [Access to Electricity] + 𝛽2 [Literacy Rate(Adult Female)] + 𝛽3 [Literacy Rate(Youth Female)] + 
@@ -57,7 +55,7 @@ GDP Growth Rate Per Capita(%) =
                                 𝛽10 [Labor Force Participation (Male)] + 𝛽11 [Net Migration] + 𝜎t + g + 𝜖j,t,g                      
 
 **Neural Networks (Supervised Learning)**
-* 
+
 
 ## Results 
 
