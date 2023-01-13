@@ -12,7 +12,9 @@ Social factors like increased access to electricity, literacy rate or primary sc
 
 Multi-Variable Linear Regression Analysis
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Neural Networks Regression Analysis
+
+Data Visualization 
 
 ## Data
 
