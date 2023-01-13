@@ -34,9 +34,6 @@ Labor force participation rate is the proportion of the population that is econo
 * **Literacy Rate (% of Population):**
 Literacy rate is the percentage of people within our measured population who can both read and write, while understanding a short simple statement about their everyday life. For our dataset, we will be including youth males/females (15-24 years old), and adult males/females (15 years and older). Each variation will have its own data, meaning that we have four different independent variables for Literacy Rate.
 
-* **People Using at Least Basic Drinking Water Services (% of population):**
-This variable encompasses both people using basic water services, as well as those using safely managed water services.  Basic drinking water services is defined as drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip.  Improved water sources include piped water, boreholes or tubewells, protected dug wells, protected springs, and packaged or delivered water.
-
 * **Life Expectancy at Birth (Years):**
 Life expectancy at birth indicates the number of years a newborn infant would live, if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. For our dataset, we will be including males and females. Each variation will have its own data, meaning that we have two different independent variables for Life Expectancy at Birth.
 
@@ -45,6 +42,51 @@ This variable is the measure of the net total of migrants during the period; The
 
 * **School Enrollment, Primary (% Net):**
 Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Primary education provides children with basic reading, writing, and mathematics skills along with an elementary understanding of such subjects as history, geography, natural science, social science, art, and music.
+
+## Data Trends
+
+### Dependent Variable:
+
+* **GDP per Capita Growth (Annual %):**
+
+![GDP per Capita Growth](Graphs/GDP_Growth_Per_Capita.png)
+
+
+### Independent Variables:
+
+* **Access to Electricity (% of Population):**
+
+![Access to Electricity](Graphs/Access_to_Electricity.png)
+
+
+* **Labor Force Participation Rate(% of Population - National Estimate):**
+
+![Labor Force Participation Rate](Graphs/Labor_Force_Particpation.png)
+
+
+* **Literacy Rate (% of Population):**
+
+![Literacy Rate](Graphs/Literacy_Rate.png)
+
+
+* **Life Expectancy at Birth (Years):**
+
+![Life Expectancy at Birth](Graphs/Life_Expectancy_at_Birth.png)
+
+
+* **Net Migration (Persons):**
+
+![Net Migration](Graphs/Net_Migration.png)
+
+
+* **School Enrollment, Primary (% Net):**
+
+![School Enrollment](Graphs/Primary_School_Enrollment.png)
+
+### Variable Correlation 
+
+![Correlation](Graphs/Correlation.png)
+
 
 ## Models
 
