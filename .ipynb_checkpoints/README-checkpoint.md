@@ -103,8 +103,7 @@ GDP Growth Rate Per Capita(%) =
 
 ## Results 
 
-
-
+The Multi-Variable Linear Regression has model score of XX, signifying the model has low to moderate performance measure. However, the model has a R S-Squared of XX. The Independent variables, in the linear regression analysis, do not explain the dependent variable well. The poor explainability relationship between the variables, in the model, could be explained by Social factors not having a significant impact on Economic Development. However, given that results from studies and economic development theory suggest the opposite, we believe that Linear Regression Analysis is not the most appropriate model for explaiing the Impact of Socail factors on Econmic Development.     
 
 
 ## Libraries
