@@ -99,6 +99,10 @@ GDP Growth Rate Per Capita(%) =
                                 𝛽10 [Labor Force Participation (Male)] + 𝛽11 [Net Migration] + 𝜎t + g + 𝜖j,t,g                      
 
 **Neural Networks (Supervised Learning)**
+![MLP_Function](Models/Images/MLP_Function.png)
+
+![MLP_Diagram](Models/Images/MLP_Diagram.png)
+
 
 
 ## Results 
@@ -127,6 +131,8 @@ The Multi-Variable Linear Regression has model score of XX, signifying the model
 ## References 
 
 1) GATAWA, GERRY (2022): The Effect of Social Factors to Economic Growth. Advance. Preprint. https://doi.org/10.31124/advance.19397081.v1 
+
+2)  https://www.youtube.com/watch?v=P8Xrj70qtyo
 
 
 
