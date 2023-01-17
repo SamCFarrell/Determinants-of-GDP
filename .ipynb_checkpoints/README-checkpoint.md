@@ -2,11 +2,11 @@
 
 ## Project Description
 
-This projct aims to analyze the impact of socail and economic factors, using econometric and machine learning models, on GDP growth rate per capita. We used the World Bank Open Data to obtain data on various scoail and economic metrics on the Latin America and Carribean region.  We studied the impact of these factors on economic growth (GDP growth rate per capita) from 1993 to 2019. Additionally, we used the econometric and machine learning models to forecast future gdp growth rate per capita.  
+This project aims to analyze the impact of social and economic factors, using econometric and machine learning models, on GDP growth rate per capita. We used the World Bank Open Data to obtain data on various social and economic metrics on the Latin America and Caribbean region.  We studied the impact of these factors on economic growth (GDP growth rate per capita) from 1993 to 2019. Additionally, we used the econometric and machine learning models to forecast future gdp growth rate per capita.  
 
 ## Background
 
-Social factors like increased access to electricity, literacy rate or primary school enrollment can have a significant impact on the economic development of a country or region; however, it can prove challenging to quantify the specific economic impact of these socail factors. Our study aims to quantify the impact of these social factors on the economic development in the Latin America and Carribean regions, measured using the proxy variable of GDP growth rate per capita. We hypothesize that growth in these factors will have a positive impact on the economic development of the Latin America region. Other studies and literature on this topic support a similar opinion. For example,  Gerry Gatawa, in his paper *The Effect of Social Factors to Economic Growth*<sup>1</sup>, said that "Social factors are great drivers of economic growth and it could result to tangible benefits that can trigger sustainable development". Gatawa's "study calls for a paradigm shift among economists, public administrators, and finance managers to view social expenditures as investments that could guarantee sustainable economic growth and development"<sup>1</sup>.     
+Social factors like increased access to electricity, literacy rate or primary school enrollment can have a significant impact on the economic development of a country or region; however, it can prove challenging to quantify the specific economic impact of these socail factors. Our study aims to quantify the impact of these social factors on the economic development in the Latin America and Caribbean regions, measured using the proxy variable of GDP growth rate per capita. We hypothesize that growth in these factors will have a positive impact on the economic development of the Latin America region. Other studies and literature on this topic support a similar opinion. For example,  Gerry Gatawa, in his paper *The Effect of Social Factors to Economic Growth*<sup>1</sup>, said that "Social factors are great drivers of economic growth and it could result to tangible benefits that can trigger sustainable development". Gatawa's "study calls for a paradigm shift among economists, public administrators, and finance managers to view social expenditures as investments that could guarantee sustainable economic growth and development"<sup>1</sup>.     
 
 ## Notebooks
 
@@ -49,43 +49,43 @@ Net enrollment rate is the ratio of children of official school age who are enro
 
 * **GDP per Capita Growth (Annual %):**
 
-![GDP per Capita Growth](Graphs/GDP_Growth_Per_Capita.png)
+![GDP per Capita Growth](Data_Trends_Visualization/GDP_Growth_Per_Capita.png)
 
 
 ### Independent Variables:
 
 * **Access to Electricity (% of Population):**
 
-![Access to Electricity](Graphs/Access_to_Electricity.png)
+![Access to Electricity](Data_Trends_Visualization/Access_to_Electricity.png)
 
 
 * **Labor Force Participation Rate(% of Population - National Estimate):**
 
-![Labor Force Participation Rate](Graphs/Labor_Force_Particpation.png)
+![Labor Force Participation Rate](Data_Trends_Visualization/Labor_Force_Particpation.png)
 
 
 * **Literacy Rate (% of Population):**
 
-![Literacy Rate](Graphs/Literacy_Rate.png)
+![Literacy Rate](Data_Trends_Visualization/Literacy_Rate.png)
 
 
 * **Life Expectancy at Birth (Years):**
 
-![Life Expectancy at Birth](Graphs/Life_Expectancy_at_Birth.png)
+![Life Expectancy at Birth](Data_Trends_Visualization/Life_Expectancy_at_Birth.png)
 
 
 * **Net Migration (Persons):**
 
-![Net Migration](Graphs/Net_Migration.png)
+![Net Migration](Data_Trends_Visualization/Net_Migration.png)
 
 
 * **School Enrollment, Primary (% Net):**
 
-![School Enrollment](Graphs/Primary_School_Enrollment.png)
+![School Enrollment](Data_Trends_Visualization/Primary_School_Enrollment.png)
 
 ### Variable Correlation 
 
-![Correlation](Graphs/Correlation.png)
+![Correlation](Data_Trends_Visualization/Correlation.png)
 
 
 ## Models
@@ -99,6 +99,10 @@ GDP Growth Rate Per Capita(%) =
                                 𝛽10 [Labor Force Participation (Male)] + 𝛽11 [Net Migration] + 𝜎t + g + 𝜖j,t,g                      
 
 **Neural Networks (Supervised Learning)**
+![MLP_Function](Models/Images/MLP_Function.png)
+
+![MLP_Diagram](Models/Images/MLP_Diagram.png)
+
 
 
 ## Results 
@@ -127,6 +131,8 @@ The Multi-Variable Linear Regression has model score of XX, signifying the model
 ## References 
 
 1) GATAWA, GERRY (2022): The Effect of Social Factors to Economic Growth. Advance. Preprint. https://doi.org/10.31124/advance.19397081.v1 
+
+2)  https://www.youtube.com/watch?v=P8Xrj70qtyo
 
 
 
