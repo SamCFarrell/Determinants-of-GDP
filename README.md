@@ -12,9 +12,9 @@ Social factors like increased access to electricity, literacy rate or primary sc
 
 Multi-Variable Linear Regression Analysis
 
-Neural Networks Regression Analysis
+Neural-Multi Layer Perceptron Regression Analysis
 
-Data Visualization 
+Data Visualization
 
 ## Data
 
@@ -60,7 +60,9 @@ Net enrollment rate is the ratio of children of official school age who are enro
 
 <br />
 
-* **Regression analysis:**
+* Regression analysis:
+
+<br />
 
 ![Access to Electricity Regression](Regression_Visualization/Regression_Access_to_Electricity.png)  
 
@@ -77,13 +79,23 @@ The standard deviation is 2.0513221536981656.
 
 <br />
 
+* Partial Dependence:
+
+<br />
+
+![Access to Electricity Partial Dependence](Neural_Network_Visualization/MLP_PD_ae.png)
+
+<br />
+
 * **Labor Force Participation Rate(% of Population - National Estimate):**
 
 ![Labor Force Participation Rate](Data_Trends_Visualization/Labor_Force_Particpation.png)
 
 <br />
 
-* **Regression analysis:**
+* Regression analysis:
+
+<br />
 
 ![Labor Force Participation Rate Regression Male](Regression_Visualization/Regression_Change_in_Labor_Force_Participation_Rate_Male.png)
 
@@ -113,13 +125,25 @@ The mean squared error is **3.770091621159123.** <br />
 The root mean squared error is **1.941672377400246.** <br />
 The standard deviation is **2.0513221536981656.**
 
+<br />
+
+* Partial Dependence:
+
+<br />
+
+![Labor Force Participation Rate Partial Dependence](Neural_Network_Visualization/MLP_PD_lfpr.png)
+
+<br />
+
 * **Literacy Rate (% of Population):**
 
 ![Literacy Rate](Data_Trends_Visualization/Literacy_Rate.png)
 
 <br />
 
-* **Regression analysis:**
+* Regression analysis:
+
+<br />
 
 ![Literacy Regression Adult Female](Regression_Visualization/Regression_Change_in_Literacy(adult_female).png)
 
@@ -181,13 +205,25 @@ The standard deviation is **2.0513221536981656.**
 
 <br />
 
+* Partial Dependence:
+
+<br />
+
+![Literacy Rate Adult Partial Dependence](Neural_Network_Visualization/MLP_PD_lr_a.png)
+
+![Literacy Rate Youth Partial Dependence](Neural_Network_Visualization/MLP_PD_lr_y.png)
+
+<br />
+
 * **Life Expectancy at Birth (Years):**
 
 ![Life Expectancy at Birth](Data_Trends_Visualization/Life_Expectancy_at_Birth.png)
 
 <br />
 
-* **Regression analysis:**
+* Regression analysis:
+
+<br />
 
 ![Life Expectancy at Birth Regression Female](Regression_Visualization/Regression_Change_in_Life_Expectancy_at_Birth(female).png)
 
@@ -219,17 +255,27 @@ The standard deviation is **2.0513221536981656.**
 
 <br />
 
+* Partial Dependence:
+
+<br />
+
+![Life Expectancy at Birth Partial Dependence](Neural_Network_Visualization/MLP_PD_le.png)
+
+<br />
+
 * **Net Migration (Persons):**
 
 ![Net Migration](Data_Trends_Visualization/Net_Migration.png)
 
 <br />
 
-* **Regression analysis:**
+* Regression analysis:
 
 <br />
 
 ![Net Migration Regression](Regression_Visualization/Regression_Change_in_Net_Migration.png)
+
+<br />
 
 
 Model's slope: **[-0.67247315]**<br />
@@ -243,13 +289,22 @@ The standard deviation is **2.0513221536981656.**
 
 <br />
 
+* Partial Dependence:
+
+<br />
+
+![Net Migration Partial Dependence](Neural_Network_Visualization/MLP_PD_nm.png)
+
+<br />
+
+
 * **School Enrollment, Primary (% Net):**
 
 ![School Enrollment](Data_Trends_Visualization/Primary_School_Enrollment.png)
 
 <br />
 
-* **Regression analysis:**
+* Regression analysis:
 
 <br />
 
@@ -267,6 +322,13 @@ The root mean squared error is **2.0329113604858295.**<br />
 The standard deviation is **2.0513221536981656.**
 
 <br />
+
+* Partial Dependence:
+
+<br />
+
+![School Enrollment Partial Dependence](Neural_Network_Visualization/MLP_PD_pse.png)
+
 <br />
 
 ### Variable Correlation 
@@ -285,8 +347,33 @@ GDP Growth Rate Per Capita(%) =
                                 𝛽10 [Labor Force Participation (Male)] + 𝛽11 [Net Migration] + 𝜎t + g + 𝜖j,t,g                      
 
 **Neural Networks (Supervised Learning)**
+
+### Structure:  
+    Number of Inputs: 12
+    Hidden Layers:
+    - 1: 24 Nodes
+    - 2: 24 Nodes
+    - 3: 24 Nodes
+    Output Layer: 1   
+    Activation Function: Linear (f(x)) 
+
 ![MLP_Function](Models/Images/MLP_Function.png)
 
+### Where:
+    i1 = Time  
+    i2 = Access to Electricity  
+    i3 = Literacy Rate (Adult Female)  
+    i4 = Literacy Rate (Youth Female)  
+    i5 = Literacy Rate (Adult Male)  
+    i6 = Literacy Rate (Youth Male)  
+    i7 = Life expectancy at Birth (Female)  
+    i8 = Life expectancy at Birth (Male)  
+    i9 = Primary School Enrollment  
+    i10 = Labor Force Participation (Female)  
+    i11 = Labor Force Participation (Male)  
+    i12 = Net Migration  
+
+### Diagram:
 ![MLP_Diagram](Models/Images/MLP_Diagram.png)
 
 
@@ -317,8 +404,6 @@ The Multi-Variable Linear Regression has model score of XX, signifying the model
 ## References 
 
 1) GATAWA, GERRY (2022): The Effect of Social Factors to Economic Growth. Advance. Preprint. https://doi.org/10.31124/advance.19397081.v1 
-
-2)  https://www.youtube.com/watch?v=P8Xrj70qtyo
 
 
 
