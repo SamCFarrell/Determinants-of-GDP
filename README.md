@@ -12,16 +12,25 @@ Social factors like increased access to electricity, literacy rate or primary sc
 
 Multi-Variable Linear Regression Analysis
 
-Neural Networks Regression Analysis
+Multi-Layer Perceptron Regression Analysis (Neural Networks)
 
 Data Visualization 
 
+Regression Visual
+
 ## Data
+
+### Data Collection, Cleanup, and Exploration
+
+* The World Bank DataBank was used since its a rich source of data for Global Economic and Social Development indicators
+* We used data from 1993 - 2019 to remove missing data points. Data collection and calculation constraints on World Bank’s end did not allow us to use older data. 
+* The data was exported from the World Bank DataBank, formatted in excel and finally saved as a CSV to be used for analysis.
+
 
 ### Dependent Variable:
 
 * **GDP per Capita Growth (Annual %):**
-Annual percentage growth rate of GDP per capita based on constant local currency. GDP per capita is the gross domestic product divided by the midyear population. We are using GDP at purchaser's prices, which is the sum of the gross value added by all resident producers in the economy, plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets, or for depletion and degradation of natural resources.
+* Annual percentage growth rate of GDP per capita based on constant local currency. GDP per capita is the gross domestic product divided by the midyear population. We are using GDP at purchaser's prices, which is the sum of the gross value added by all resident producers in the economy, plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets, or for depletion and degradation of natural resources.
 
 ### Independent Variables:
 
