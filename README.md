@@ -349,6 +349,9 @@ GDP Growth Rate Per Capita(%) =
                                 𝛽10 [Labor Force Participation (Male)] + 𝛽11 [Net Migration] + 𝜎t + g + 𝜖j,t,g                      
 
 
+### Results 
+
+![Multi_Linear_Regression_Analysis_Results_Table](Models/Images/Multi_Linear_Regression_Analysis_Results_Table.png)
 
 **Neural Networks (Supervised Learning)**
 
