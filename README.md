@@ -379,6 +379,7 @@ GDP Growth Rate Per Capita(%) =
 ![MLP_Diagram](Models/Images/MLP_Diagram.png)
 
 
+<<<<<<< HEAD
 
 ## Results and Next Steps
 
@@ -389,8 +390,12 @@ Additionally, the Latin America and Caribbean regions display high Social develo
 Furthermore, a dataset that covers a lager time horizon should be used. Due to the difficultes with collecting data on Social Factors, we could only use data from 1993 onwards. Additional data sources should be investigated for further analysis. 
 
 Finally, a variety of other variables serving as prozies of r social development should be used to identify the best variables for this study. Social development is multi faceted and cannot be easily captured using a discrete set of variables. By using different sets of social factor variables, the quality of the analysis can be improved. 
+=======
+## Results 
+>>>>>>> 9315d487dc3bb4ee2e53ab52ec9c808980484e80
 
 
+The Mulit-Layer Perceptron regressen has an R-Squared Score of 0.066. Meaning that the the indipendent variables also do not explain the dependent variable particularly well. That said, the neural network structure outlined above does produce far more models with positive R-Squared values than alternative designs. Dispite this tendancy, the model does has similar metrics to linear regression and suffers a similar lack of explainability. While a more capable Neural Network could certainly be created using better data and design, We believe that it is inappropriate for our purposes here and suggest alternative models be explored.
 
 ## Libraries
 
