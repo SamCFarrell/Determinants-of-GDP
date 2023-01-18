@@ -348,6 +348,8 @@ GDP Growth Rate Per Capita(%) =
                                 𝛽7 [Life expectancy at Birth(Male)] + 𝛽8 [Primary School Enrollment] + 𝛽9 [Labor Force Participation (Female)] + 
                                 𝛽10 [Labor Force Participation (Male)] + 𝛽11 [Net Migration] + 𝜎t + g + 𝜖j,t,g                      
 
+
+
 **Neural Networks (Supervised Learning)**
 
 ### Structure:  
@@ -378,24 +380,17 @@ GDP Growth Rate Per Capita(%) =
 ### Diagram:
 ![MLP_Diagram](Models/Images/MLP_Diagram.png)
 
-
-<<<<<<< HEAD
-
 ## Results and Next Steps
 
 The Multi-Variable Linear Regression and Mulit-Layer Perceptron Regression modes have low model scores signifying low model predictability. The models also have low  R S-Squared values signifying that the Independent variables do not explain the dependent variable well. The poor explainability relationship between the variables, in the model, could be explained by the Social factors not having a significant impact on Economic Development. However, given that results from studies and economic development theory suggest the opposite, we believe that models and data sets need to be further refined to better analyze the impact of Socail factors on Economic Development.
+
+The Mulit-Layer Perceptron regressen has an R-Squared Score of 0.066. Meaning that the the indipendent variables also do not explain the dependent variable particularly well. That said, the neural network structure outlined above does produce far more models with positive R-Squared values than alternative designs. Dispite this tendancy, the model does has similar metrics to linear regression and suffers a similar lack of explainability. While a more capable Neural Network could certainly be created using better data and design, We believe that it is inappropriate for our purposes here and suggest alternative models be explored.
 
 Additionally, the Latin America and Caribbean regions display high Social development. For instance the literacy rates, and labor force participation are very high. Therefore, these factors are past the critical point where as additional increase would result in a proprtional impact on economiic developemnt. However, regions with low Social Development, would have social factors that  might exhibit a higher correlation with economic development. As a next step, other regions in the world, particularly regions with low development, should be studid to better undersand the impact of the Scial Factors on Ecnomic Development. 
 
 Furthermore, a dataset that covers a lager time horizon should be used. Due to the difficultes with collecting data on Social Factors, we could only use data from 1993 onwards. Additional data sources should be investigated for further analysis. 
 
 Finally, a variety of other variables serving as prozies of r social development should be used to identify the best variables for this study. Social development is multi faceted and cannot be easily captured using a discrete set of variables. By using different sets of social factor variables, the quality of the analysis can be improved. 
-=======
-## Results 
->>>>>>> 9315d487dc3bb4ee2e53ab52ec9c808980484e80
-
-
-The Mulit-Layer Perceptron regressen has an R-Squared Score of 0.066. Meaning that the the indipendent variables also do not explain the dependent variable particularly well. That said, the neural network structure outlined above does produce far more models with positive R-Squared values than alternative designs. Dispite this tendancy, the model does has similar metrics to linear regression and suffers a similar lack of explainability. While a more capable Neural Network could certainly be created using better data and design, We believe that it is inappropriate for our purposes here and suggest alternative models be explored.
 
 ## Libraries
 
