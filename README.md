@@ -377,11 +377,11 @@ GDP Growth Rate Per Capita(%) =
 ![MLP_Diagram](Models/Images/MLP_Diagram.png)
 
 
-
 ## Results 
 
 The Multi-Variable Linear Regression has model score of XX, signifying the model has low to moderate performance measure. However, the model has a R S-Squared of XX. The Independent variables, in the linear regression analysis, do not explain the dependent variable well. The poor explainability relationship between the variables, in the model, could be explained by Social factors not having a significant impact on Economic Development. However, given that results from studies and economic development theory suggest the opposite, we believe that Linear Regression Analysis is not the most appropriate model for explaiing the Impact of Socail factors on Econmic Development.     
 
+The Mulit-Layer Perceptron regressen has an R-Squared Score of 0.066. Meaning that the the indipendent variables also do not explain the dependent variable particularly well. That said, the neural network structure outlined above does produce far more models with positive R-Squared values than alternative designs. Dispite this tendancy, the model does has similar metrics to linear regression and suffers a similar lack of explainability. While a more capable Neural Network could certainly be created using better data and design, We believe that it is inappropriate for our purposes here and suggest alternative models be explored.
 
 ## Libraries
 
